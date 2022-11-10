@@ -62,10 +62,10 @@ const questions = [
     },
   },
   {
-    type: "checkbox",
+    type: "confirm",
     name: "Contributing",
     message: "Are you accepting contributors?",
-    choices: ["Yes", "No"],
+    default: true,
     validate: (contCheck) => {
       if (contCheck) {
         return true;
@@ -94,15 +94,13 @@ const questions = [
     message:
       "Which license are you using for this project?(Use up and down arrow keys to select.)",
     choices: ["apache-2.0", "mit", "gpl-3.0", "None"],
-    validate: (licenseCheck) => {
-      if (licenseCheck) {
-        return true;
-      } else {
-        console.log("Please choose an option for license.");
-        return false;
-      }
-    },
   },
+  {
+    type: "checkbox",
+    name: "Languages",
+    message: "What languages or frameworks did you use in this project?",
+    choices: ["html", "css", "js", "jquery", "nodejs", "bootstrap","tailwind"],
+   },
   {
     type: "input",
     name: "Github",

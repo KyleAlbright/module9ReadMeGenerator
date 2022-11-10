@@ -1,6 +1,10 @@
 
   # stuff
-  ![badge](https://img.shields.io/badge/License-apache-2.0-blueviolet.svg)
+  ![badge](https://img.shields.io/badge/License-mit-blueviolet.svg) 
+  ![My Skills](https://skillicons.dev/icons?i=html,css,js,jquery,nodejs,bootstrap,tailwind&theme=dark)
+  
+   
+  
   
   ## Table-of-contents
 
@@ -11,7 +15,7 @@
 * [Tests](#Tests)
 
  ## [License](#table-of-contents)
-Learn more about my [apache-2.0](https://choosealicense.com/licenses/apache-2.0) license. 
+Learn more about my [mit](https://choosealicense.com/licenses/mit) license. 
 
 ### [Description](#table-of-contents)
 stuff
@@ -38,8 +42,12 @@ stuff
 
 
 
+
 #### [Questions?](#table-of-contents)
-Follow me here at my [Github](https://github.com/stuff)
+Follow me here at my [Github](https://github.com/stuff) 
 
 Email: stuff
+
+
+
 

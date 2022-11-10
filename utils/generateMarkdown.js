@@ -8,6 +8,14 @@ function renderLicenseBadge(License) {
   }
 }
 
+function renderLanguageIcon(Languages) {
+    if (Languages !== "None") {
+      return `![My Skills](https://skillicons.dev/icons?i=${Languages}&theme=dark)`;
+    } else {
+      return "";
+    }
+  }
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(License) {
@@ -38,7 +46,11 @@ function addContributors (Contributing){
 function generateMarkdown(data) {
   return `
   # ${data.Title}
-  ${renderLicenseBadge(data.License)}
+  ${renderLicenseBadge(data.License)} 
+  ${renderLanguageIcon(data.Languages)}
+  
+   
+  
   
   ## Table-of-contents
 
@@ -75,9 +87,13 @@ ${data.Tests}
 
 
 
+
 #### [Questions?](#table-of-contents)
-Follow me here at my [Github](https://github.com/${data.Github})
+Follow me here at my [Github](https://github.com/${data.Github}) 
 \nEmail: ${data.Email}
+
+
+
 
 `;
 }
