@@ -29,6 +29,12 @@ The user should either download the zip file or clone the repository into a file
 ### [Usage](#table-of-contents)
 After starting the application by typing "node index.js" into the terminal, the user will be prompted with questions related to their project. By using the inquirer package, we where able to get information about Title, Description, Installation, Usage, Contributions, Licensing, and Testing. I was also able to dynamically generate both a badge based upon what license was chosen, as well as icons based on what languages and frameworks where used. At the bottom there is a place where the user can be contacted with information about contributions, as well as questions. 
 
+
+![Screenshot (36)](https://user-images.githubusercontent.com/110487869/201490894-c5ee196c-dc33-4dcf-98f1-4c3c9de16a75.png)
+
+![Screenshot (37)](https://user-images.githubusercontent.com/110487869/201490895-5531ce47-1616-4975-86c5-71b2a187606a.png)
+
+
 Please see video for walk-through of this application. 
 
 [Walk-through video](https://app.castify.com/view/80b97722-1d05-4aeb-9611-32aa874c82e1)
