@@ -7,7 +7,7 @@ function renderLicenseBadge(License) {
     return "";
   }
 }
-
+// Creates the language icons based on the user's input
 function renderLanguageIcon(Languages) {
     if (Languages !== "None") {
       return `![My Skills](https://skillicons.dev/icons?i=${Languages}&theme=dark)`;
@@ -34,7 +34,7 @@ function renderLicenseSection(License) {
     return "";
 }
 }
-
+// Generates a response based on the yes or no answer from the contribution section. 
 function addContributors (Contributing){
     if (Contributing == "Yes"){
         return `I am currently accepting contributions to this project. Please email me for info about contributing.`

@@ -4,7 +4,7 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 // TODO: Create an array of questions for user input
 
-// questions array created with different types of input. (input, checkbox, list) 
+// questions array created with different types of input. (input, checkbox, list, confirm) 
 // validation added to make sure that the user responds. 
 const questions = [
   {
@@ -140,6 +140,7 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
+// stores the generated readme file in the dist folder
 function init() {
   return inquirer.prompt(questions).then((readMeInfo) => {
     writeToFile("./dist/readme.md", generateMarkdown(readMeInfo));
