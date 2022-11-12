@@ -89,7 +89,8 @@ ${data.Tests}
 
 
 #### [Questions?](#table-of-contents)
-Follow me here at my [Github](https://github.com/${data.Github}) 
+Please contact me using the following links.
+\nFollow me here at my [Github](https://github.com/${data.Github}) 
 \nEmail: ${data.Email}
 
 
