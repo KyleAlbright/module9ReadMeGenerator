@@ -99,7 +99,7 @@ const questions = [
     type: "checkbox",
     name: "Languages",
     message: "What languages or frameworks did you use in this project?",
-    choices: ["html", "css", "js", "jquery", "nodejs", "bootstrap","tailwind"],
+    choices: ["html", "css", "js", "jquery", "nodejs", "bootstrap","tailwind","express"],
    },
   {
     type: "input",
