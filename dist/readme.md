@@ -1,7 +1,7 @@
 
-  # Module 9 ReadMe Generator
+  # Module 11 Note-Taker App
   ![badge](https://img.shields.io/badge/License-mit-blueviolet.svg) 
-  ![My Skills](https://skillicons.dev/icons?i=js,nodejs&theme=dark)
+  ![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,express&theme=dark)
   
    
   
@@ -18,17 +18,17 @@
 Learn more about my [mit](https://choosealicense.com/licenses/mit) license. 
 
 ### [Description](#table-of-contents)
-In this challenge, we where asked to create a Readme.md generator that we can use in future projects. In this challenge, I was able to to use node along with the inquirer, and fs packages to dynamically render the Readme.Md based on the user's input. This will allow the user to spend less time creating a Readme, and more time developing their application. 
+In this challege we where asked to make a note taker app to record and store notes. We where asked to use express.js on the back end while saving and retreiving data from a JSON file. We also had the challenge of connecting the front and back end together. As a bonus this week we where also asked to create the delete button functionality, a skill we where not taught in class. 
 
 
 
 ### [Installation](#table-of-contents)
-The user should either download the zip file or clone the repository into a file using the terminal. After this step is completed, the user should open the file in VS code, or editor of their choosing. Open the terminal in the editor, and make sure you are in the root directory, (module9ReadMeGenerator) and start the application by typing "node index.js". (Make sure that Node, and NPM are installed on your machine.)
+to install this, please either download the zip file from my github, or clone the repository. Once that step has been completed, you can either run the application in the browser, or from the terminal by typing "npm start".
 
 
 
 ### [Usage](#table-of-contents)
-After starting the application by typing "node index.js" into the terminal, the user will be prompted with questions related to their project. By using the inquirer package, we where able to get information about Title, Description, Installation, Usage, Contributions, Licensing, and Testing. I was also able to dynamically generate both a badge based upon what license was chosen, as well as icons based on what languages and frameworks where used. At the bottom there is a place where the user can be contacted with information about contributions, as well as questions. 
+This application functions similarly to your notes app on your phone or mobile device. The app requires a title, as well as body to store the note. Notes can be saved by clicking on the save icon in the top right corner. You can add a new note by clicking on the plus button icon.  If you wish to delete a saved note, there is a trash button icon to the right of all saved notes that will delete any saved notes. Clicking the note taker button in the top left corner will take you back to the homepage. 
 
 
 
@@ -38,7 +38,7 @@ I am currently not accepting contributions to this project.
 
 
 ### [Tests](#table-of-contents)
-Testing can be completed by adding console.logs in the index.js file. To test these in the application, open the terminal in your editor while in the root directory, and type node index.js in the command line. Console.logs will appear in the terminal.
+You can test this application by adding your own user input. You can also add console logs to the server js to test the functionality of different features. 
 
 
 
@@ -46,7 +46,7 @@ Testing can be completed by adding console.logs in the index.js file. To test th
 #### [Questions?](#table-of-contents)
 Please contact me using the following links.
 
-Follow me here at my [Github](https://github.com/kylealbright) 
+Follow me here at my [Github](https://github.com/KyleAlbright) 
 
 Email: kyle_albright@hotmail.com
 
